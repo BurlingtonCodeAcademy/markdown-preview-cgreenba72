@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Connor's MarkDown App</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <h1 id="header">Markdown Preview </h1>
+    </header>
+    <div class="container">
+        <h3>Type proper Markdown langunage into the Textfield and it will be converted before your eyes...</h3>
+    </div>
+    <button id="render">Markdown Text</button>
+    <button id="bold"><strong>BOLD</strong></button>
+    <button id="italicize"><i>Italicize</i></button>
+    <div class="container">
+        <textarea id="source" class="inputPane"></textarea>
+        <div id="preview" class="outputPane">Converted text appears here...</div>
+    </div>
+    
+    <footer>
+        <h4> Designed and Built by Connor Greenbaum</h4>
+    </footer>
+    <script type="text/javascript" src="script.js"></script>
+    <script src='node_modules/marked/lib/marked.js'></script>
+</body>
+
+</html>
