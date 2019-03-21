@@ -7,6 +7,9 @@
     "start": "npx static .",
     "test": "cypress run"
   },
+  "permissions": [
+    "*://developer.mozilla.org/*",
+    "clipboardRead"],
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -17,4 +20,5 @@
     "marked": "^0.3.19",
     "node-static": "^0.7.11"
   }
+  
 }
